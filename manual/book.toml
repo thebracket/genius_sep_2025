@@ -1,0 +1,11 @@
+[book]
+authors = ["Herbert Wolverson"]
+language = "en"
+src = "src"
+title = "Genius Sports Training"
+
+[rust]
+edition = "2021"
+
+[output.html.playground]
+editable = true

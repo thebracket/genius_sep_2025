@@ -4,3 +4,6 @@ version = "0.1.0"
 edition = "2024"
 
 [dependencies]
+
+[workspace]
+members = [ "actix_diesel", "actix_docker","actix_hello", "actix_json", "actix_middleware_auth", "actix_middleware_client", "actix_path", "actix_sqlx", "actix_state", "hello_tonic", "tracing_json", "tracing_simple"]

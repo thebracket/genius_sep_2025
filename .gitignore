@@ -1,2 +1,5 @@
 /code/target
 /manual/book
+/code/actix_sqlx/migrations
+/code/actix_sqlx/hello_db*
+/code/actix_diesel/hello_db*

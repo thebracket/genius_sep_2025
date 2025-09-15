@@ -1,8 +1,3 @@
-# Tracing and Spans
-
-> See `code/spans`.
-
-```rust
 use tracing::{debug, error, info, info_span, instrument, trace};
 use tracing_subscriber::{fmt, fmt::format::FmtSpan, layer::SubscriberExt, util::SubscriberInitExt, EnvFilter};
 use tracing_subscriber::fmt::time::SystemTime;
@@ -68,4 +63,3 @@ fn main() {
     do_nested_work();
     info!("done");
 }
-```

@@ -6,4 +6,4 @@ edition = "2024"
 [dependencies]
 
 [workspace]
-members = [ "actix_diesel", "actix_docker","actix_hello", "actix_json", "actix_middleware_auth", "actix_middleware_client", "actix_path", "actix_sqlx", "actix_state", "hello_tonic", "tracing_json", "tracing_simple"]
+members = [ "actix_diesel", "actix_docker","actix_hello", "actix_json", "actix_middleware_auth", "actix_middleware_client", "actix_path", "actix_sqlx", "actix_state", "benchmark_critereon", "flamegraph", "hello_tonic", "spans", "tracing_json", "tracing_simple"]
